@@ -18,6 +18,23 @@ export default defineConfig({
       },
     ],
 
+    export default defineConfig({
+  ..
+  themeConfig: {
+    ...,
+    sidebar: [
+      ...,
+      {
+        text: "Лабораторні роботи",
+        items: [
+          ...,
+          { text: "Лабораторна робота №2", link: "/labs/2" }
+        ],
+      },
+    ],
+  },
+})
+
     // socialLinks: [
     //   { icon: "github", link: "https://github.com/vuejs/vitepress" },
     // ],
