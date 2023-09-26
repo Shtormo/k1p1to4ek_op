@@ -17,8 +17,7 @@ export default defineConfig({
         items: [{ text: "Лабораторна робота №1", link: "/labs/1" }],
       },
     ],
-
-    export default defineConfig({
+export default defineConfig({
   ..
   themeConfig: {
     ...,
