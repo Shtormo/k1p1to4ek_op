@@ -9,12 +9,15 @@ export default defineConfig({
   base: "/k1p1to4ek_op/",
 
   themeConfig: {
-    nav: [{ text: "Лабораторні", link: "/labs/1" }],
+   nav: [{ text: "Лабораторні", link: "/labs/1" }],
     sidebar: [
       {
         text: "Лабораторні роботи",
         items: [{ text: "Лабораторна робота №1", link: "/labs/1" }],
-        items: [{ text: "Лабораторна робота №2", link: "/labs/2" }],
+      },
+      {
+        text: "Лабораторна робота №2",
+        link: "/labs/2",
       },
     ],
   },
